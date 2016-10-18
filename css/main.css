@@ -1,0 +1,32 @@
+html {
+  background-color: #f7f7f7;
+  font-family: helvetica, arial;
+}
+
+.feed {
+  max-width: 570px;
+  margin: 0 auto;
+}
+
+.post_wrapper {
+  background-color: white;
+  padding: 15px;
+  border: 1px solid #e0e0e0;
+  margin-top: 15px;
+}
+
+.poster {
+  font-weight: 600;
+  font-size: 0.9em;
+  color: #365899;
+}
+
+.post_message {
+  font-size: 0.9em;
+  line-height: 1.5em;
+}
+
+.post_date {
+  font-size: 0.7em;
+  color: #797979;
+}

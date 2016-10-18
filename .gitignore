@@ -1,0 +1,3 @@
+#Ignore the sass cache
+.sass-cache
+source_files
