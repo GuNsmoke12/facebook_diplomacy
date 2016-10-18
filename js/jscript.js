@@ -16,12 +16,6 @@ function loadFeed () {
         $.getJSON(fromUrl, function(data) {
             fromData = data.data;
         })
-        // $.getJSON(imagesUrl, function(data) {
-        //     imagesData = data.data;
-        // }),
-        // $.getJSON(likesCommentsUrl, function(data) {
-        //     extraDetailsData = data.data;
-        // })
     ).then(function() {
         for (i=0; i < feedData.length; i++) {
             id = feedData[i].id;
@@ -66,7 +60,7 @@ function printFeed (feedData) {
         postsShowLimit = 15;
         mobileSizeShowLimit = 9;
 
-    for (i=0; i < postsShowLimit; i++) {
+    for (i=0; i < feedData.length; i++) {
         if (feedData[i].image) {
             image = '<div class="post_image"><img src="' + feedData[i].image + '" /></div>';
         } else {
