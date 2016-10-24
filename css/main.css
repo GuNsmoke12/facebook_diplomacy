@@ -15,18 +15,50 @@ html {
   margin-top: 15px;
 }
 
-.poster {
+.post_poster {
   font-weight: 600;
   font-size: 0.9em;
   color: #365899;
+  margin: 0.5em 0;
 }
 
 .post_message {
   font-size: 0.9em;
   line-height: 1.5em;
+  margin-bottom: 1em;
+  clear: both;
 }
 
 .post_date {
   font-size: 0.7em;
   color: #797979;
+}
+
+.post_pic {
+  float: left;
+  margin: 0 1em 0.5em 0;
+}
+
+.post_hidden {
+  display: none;
+}
+
+.button_wrapper {
+  text-align: center;
+  margin: 2em 0 5em 0;
+}
+
+.button_load {
+  background-color: #3B5998;
+  color: white;
+  padding: 1em 1.5em;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 4px;
+  border-bottom: 1px solid #091d48;
+  cursor: pointer;
+}
+
+.button_load:hover, .button_load:active {
+  background-color: #17326b;
 }
